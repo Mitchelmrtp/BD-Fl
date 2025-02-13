@@ -1,0 +1,23 @@
+### Test GET request
+GET http://localhost:300/api/
+Content-Type: application/json
+
+### Test POST request
+POST http://localhost:3000/api/test
+Content-Type: application/json
+
+{
+    "key": "value"
+}
+
+### Test PUT request
+PUT http://localhost:3000/api/test/1
+Content-Type: application/json
+
+{
+    "key": "newValue"
+}
+
+### Test DELETE request
+DELETE http://localhost:3000/api/test/1
+Content-Type: application/json
